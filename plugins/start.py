@@ -32,6 +32,7 @@ async def start(client, message):
     )
 
 
+
 @trojanz.on_message(filters.command(["help"]) & filters.private)
 async def help(client, message):
     await message.reply_text(
